@@ -23,7 +23,9 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <div className="App">
+      <h1><span role="img" aria-label='go!'>🚀</span> NASA's Astronomy Picture of the Day <span role="img" aria-label='go!'>🚀</span>
+      </h1>
       <Picture photo={photo}/>
     </div>
   )
